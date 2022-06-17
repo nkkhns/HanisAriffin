@@ -30,11 +30,11 @@ ul{
 	margin-right: 25px;
 }
 
-ul iframe{
+ul li{
 	display: inline-block;
 }
 
-ul iframe a{
+ul li a{
 	text-decoration: none;
 	color: #fff;
 	padding: 5px 20px;
@@ -42,12 +42,12 @@ ul iframe a{
 	transition: 0.5 s ease;
 }
 
-ul iframe a:hover{
+ul li a:hover{
 	background-color: #fff;
 	color: #000;
 }
 
-ul iframe.active a{
+ul li.active a{
 	background-color: #fff;
 	color: #000;
 }
